@@ -17,7 +17,7 @@ const jobs: Job[] = [
     title: "Game Developer",
     mode: "On-site",
     description:
-      "Software Developer with hands-on experience in web development, application development, IoT systems, networking, and game development.",
+      "Interactive digital card game developed for a confidential client. Gameplay systems, card mechanics, and user interface built with Unreal Engine 5.4 using Blueprints and UMG.",
     tags: ["Unreal Engine"],
   },
   {
