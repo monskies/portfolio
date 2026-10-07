@@ -29,7 +29,7 @@ const jobs: Job[] = [
     tags: ["React"],
   },
   {
-    period: "January 2025 - May 2026",
+    period: "January 2025 - May 2025",
     title: "Freelance Full-Stack Developer",
     mode: "On-site",
     description:
