@@ -14,7 +14,7 @@ type Job = {
 const jobs: Job[] = [
   {
     period: "February 2026 - Present",
-    title: "Contract Game Developer",
+    title: "Game Developer",
     mode: "On-site",
     description:
       "Software Developer with hands-on experience in web development, application development, IoT systems, networking, and game development.",
