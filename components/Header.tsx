@@ -78,7 +78,7 @@ export default function Header() {
           {/* NEW: desktop resume button */}
           <li>
             <a
-              href="/resume/Nehemiam_Montero_Resume.pdf"
+              href="/resume/Nehemiam_Montero_CVResume.pdf"
               download
               className="rounded-full border border-gold/60 px-4 py-1.5 text-[11px] font-medium uppercase tracking-wider text-gold transition-all duration-300 hover:bg-gold hover:text-ink hover:shadow-[0_0_14px_rgba(212,175,55,0.6)]"
             >
@@ -121,7 +121,7 @@ export default function Header() {
             {/* NEW: mobile resume link */}
             <li>
               <a
-                href="/resume/Nehemiam_Montero_Resume.pdf"
+                href="/resume/Nehemiam_Montero_CVResume.pdf"
                 download
                 className="block rounded-lg px-3 py-3 text-sm font-medium uppercase tracking-wider text-gold"
               >
