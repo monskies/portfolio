@@ -1,6 +1,9 @@
 import type { IconType } from "react-icons";
 import { FiArrowUpRight } from "react-icons/fi";
-import { SiAndroidstudio, SiFirebase, SiKotlin, SiLaravel, SiMysql, SiUnrealengine } from "react-icons/si";
+import {
+  SiAndroidstudio, SiExpress, SiFirebase, SiKotlin, SiLaravel,
+  SiMongodb, SiMysql, SiNodedotjs, SiReact, SiTypescript, SiUnrealengine,
+} from "react-icons/si";
 
 type Project = {
   title: string;
@@ -10,10 +13,21 @@ type Project = {
   image?: string; // e.g. "/projects/school-portal.png" (put files in /public/projects)
   category: string;
   repo?: string;
+  live?: string;
 };
 
 // Edit your projects here.
 const projects: Project[] = [
+  {
+    title: "SchoolOps Automation",
+    stack: "React | TypeScript | Node.js | MongoDB",
+    icons: [SiReact, SiTypescript, SiNodedotjs, SiExpress, SiMongodb],
+    description:
+      "Full-stack school operations platform with a secure admin dashboard. Manage students, record attendance, track grades, and generate CSV attendance reports. Built with a REST API, MongoDB Atlas, JWT authentication, and a responsive light/dark React interface.",
+    image: "/projects/schoolops.png",
+    category: "Web Application",
+    live: "https://schoolops-ai-gamma.vercel.app/",
+  },
   {
     title: "School Management Portal",
     stack: "Laravel | MySQL",
@@ -106,16 +120,28 @@ export default function Projects() {
 
               <div className="mt-auto flex w-full items-center justify-between border-t border-white/25 pt-4 text-[11px] font-medium uppercase">
                 <span>{p.category}</span>
-                {p.repo && (
-                  <a
-                    href={p.repo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-1 transition-colors duration-300 hover:text-gold"
-                  >
-                    Repo <FiArrowUpRight />
-                  </a>
-                )}
+                <div className="flex items-center gap-4">
+                  {p.live && (
+                    <a
+                      href={p.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1 transition-colors duration-300 hover:text-gold"
+                    >
+                      Live <FiArrowUpRight />
+                    </a>
+                  )}
+                  {p.repo && (
+                    <a
+                      href={p.repo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1 transition-colors duration-300 hover:text-gold"
+                    >
+                      Repo <FiArrowUpRight />
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           </li>
