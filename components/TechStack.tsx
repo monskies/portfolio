@@ -5,8 +5,9 @@ import {
 } from "react-icons/fa";
 import { FiChevronsDown, FiWifi } from "react-icons/fi";
 import {
-  SiArduino, SiC, SiCplusplus, SiFirebase, SiFramer, SiKotlin,
-  SiNextdotjs, SiTailwindcss, SiUnrealengine,
+  SiArduino, SiC, SiCplusplus, SiExpress, SiFirebase, SiFramer, SiKotlin,
+  SiMongodb, SiMysql, SiNextdotjs, SiNodedotjs, SiTailwindcss,
+  SiTypescript, SiUnrealengine,
 } from "react-icons/si";
 
 type Skill = { name: string; icon: IconType };
@@ -20,6 +21,7 @@ const groups: Group[] = [
       { name: "Java", icon: FaJava },
       { name: "PHP", icon: FaPhp },
       { name: "JavaScript", icon: FaJs },
+      { name: "TypeScript", icon: SiTypescript },
       { name: "Kotlin", icon: SiKotlin },
       { name: "C", icon: SiC },
       { name: "C++", icon: SiCplusplus },
@@ -36,6 +38,15 @@ const groups: Group[] = [
       { name: "CSS", icon: FaCss3Alt },
       { name: "Bootstrap", icon: FaBootstrap },
       { name: "Tailwind CSS", icon: SiTailwindcss },
+    ],
+  },
+  {
+    title: "Backend & Database",
+    skills: [
+      { name: "Node.js", icon: SiNodedotjs },
+      { name: "Express", icon: SiExpress },
+      { name: "MongoDB", icon: SiMongodb },
+      { name: "MySQL", icon: SiMysql },
     ],
   },
   {
