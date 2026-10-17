@@ -24,7 +24,7 @@ const projects: Project[] = [
     icons: [SiReact, SiTypescript, SiNodedotjs, SiExpress, SiMongodb],
     description:
       "Full-stack school operations platform with a secure admin dashboard. Manage students, record attendance, track grades, and generate CSV attendance reports. Built with a REST API, MongoDB Atlas, JWT authentication, and a responsive light/dark React interface.",
-    image: "/projects/schoolops.png",
+    image: "/projects/schoolops_img.png",
     category: "Web Application",
     live: "https://schoolops-ai-gamma.vercel.app/",
   },
