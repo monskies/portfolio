@@ -55,7 +55,6 @@ const projects: Project[] = [
       "Developed a mobile-to-embedded solution that alerts users when they move out of range of paired essential items by monitoring Bluetooth RSSI.",
     image: "/projects/blueprox.png",
     category: "IoT",
-    repo: "#",
   },
 ];
 
