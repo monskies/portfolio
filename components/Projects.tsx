@@ -36,7 +36,7 @@ const projects: Project[] = [
       "Full-stack school management and enrollment platform. Online enrollment, student assessment, grade management, attendance, and role-based dashboards built with Laravel and MySQL.",
     image: "/projects/mca.png",
     category: "Web Application",
-    repo: "#",
+    repo: "https://github.com/monskies/MCA_Portal",
   },
   {
     title: "Digital Card Game",
